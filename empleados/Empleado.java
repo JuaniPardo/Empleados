@@ -32,4 +32,12 @@ public class Empleado {
     public void setSalario(double salario) {
         this.salario = salario;
     }
+
+    @Override
+    public String toString() {
+        return "\nEmpleado "+ id +
+                "\nNombre: \t" + nombre +
+                "\nApellido: \t" + apellido +
+                "\nSalario: \t" + salario;
+    }
 }

@@ -30,13 +30,10 @@ public class EmpleadoTest {
 
         //HAGO UN CICLO PARA MOSTRAR LOS DATOS
         for (int i = 0; i < 3; i++) {
-            System.out.println("EMPLEADO " + (i+1) + "\n" + "ID: " + empleados[i].getId()+ "\nNombre: " + empleados[i].getNombre() + "\nApellido: " + empleados[i].getApellido() + "\nSalario: " + empleados[i].getSalario() + "\n");
+            //System.out.println("EMPLEADO " + (i+1) + "\n" + "ID: " + empleados[i].getId()+ "\nNombre: " + empleados[i].getNombre() + "\nApellido: " + empleados[i].getApellido() + "\nSalario: " + empleados[i].getSalario() + "\n");
+            System.out.println(empleados[i]);
+
         }
-
-
-
-
-
 
 
 
